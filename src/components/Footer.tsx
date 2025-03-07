@@ -1,7 +1,6 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Facebook, Twitter, Instagram, Linkedin, GitHub } from 'lucide-react';
+import { Facebook, Twitter, Instagram, Linkedin, Github } from 'lucide-react';
 
 const Footer: React.FC = () => {
   return (
@@ -18,7 +17,7 @@ const Footer: React.FC = () => {
               <SocialLink href="#" icon={<Twitter size={18} />} label="Twitter" />
               <SocialLink href="#" icon={<Instagram size={18} />} label="Instagram" />
               <SocialLink href="#" icon={<Linkedin size={18} />} label="LinkedIn" />
-              <SocialLink href="#" icon={<GitHub size={18} />} label="GitHub" />
+              <SocialLink href="#" icon={<Github size={18} />} label="GitHub" />
             </div>
           </div>
           
